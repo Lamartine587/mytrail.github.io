@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Money - AkiPay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AkiPay</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="send.html">Send Money</a>
+            <a href="request.html">Request Money</a>
+        </nav>
+    </header>
+    <main>
+        <section class="request-money">
+            <h2>Request Money</h2>
+            <form action="#">
+                <label for="email">Request From (Email):</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                
+                <button type="submit">Request</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AkiPay</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
